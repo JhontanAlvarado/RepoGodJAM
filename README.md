@@ -81,3 +81,50 @@ bajar cambios
 git pull origin <rama>
 ```
 
+##Apuntes clase 4
+
+Permite ver las urls donde apunta nustra repo
+git remote -v 
+
+Vincula repo local  con uno en la nube
+gir remote add <apodo> "url" 
+
+cambia la  url donde apunta nuestro repositorio
+git remote set -url <apodo> "url" 
+
+
+###Se puede configurar multiples ssh
+Crear un archivo config para evitar conflicto
+de keys
+(ver diapositiva)
+
+verificar que funciona
+ssh -T git@github-miname
+
+
+###Git Chekout
+nos permite desplazar el HEAD hacia un punto
+especifico  de la historia o a otra rama
+Inspeccionar, Restaurar, Experimentar,Cambiar
+Usar solo para "ver"
+
+###Estado Detached HEAD
+El HEAD esta desacoplado, apunta directamente a un commit
+Espectador del pasado
+No se tiene rama
+Los cambios no "encarnados" se pierden
+
+Para ir atras
+git checkout <hashantiguo>
+
+Volver al ultimo hash  de la rama
+git checkout <rama>
+
+Para guardar cambios  del "pasado,  encarnar"
+git checkout <hashcommitcreado>
+git checkout -b ramanueva
+
+###Buenas practicas
+No trabaja mucho tiempo en Detached HEAD
+Limpiar el directorio de trabajo (add y commit)
+Usarlo para aprender de proyectos grandes, como crecieron
