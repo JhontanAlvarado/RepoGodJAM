@@ -128,3 +128,47 @@ git checkout -b ramanueva
 No trabaja mucho tiempo en Detached HEAD
 Limpiar el directorio de trabajo (add y commit)
 Usarlo para aprender de proyectos grandes, como crecieron
+
+
+##Apuntes clase 4 (Justificacion de falta)
+
+### Ramas
+Birfucacion  del estado del codigo que crea un nuevo camino 
+
+###git Branch
+Comando para gestionar ramas
+
+###git branch 
+Lista las ramas y muestra en que rama esta nustro HEAD
+
+###git branch <rama> 
+Crea una nueva rama a partir de la rama donde estamos
+
+###git branch -D <rama>
+Delete rama
+
+###git checkout <rama>
+Cambiar ramas
+
+###git checkout -b <rama>
+Crear y cambiar a esa rama
+
+###git checkout  vs git switch
+git checkout es multiproposito, cuidado
+git switch es especializado para manejo de ramas
+
+
+###gitflow basico
+Flujo de trabajo, que tiene un marco de trabajo y convenciones 
+que permite trabajar de manera ordenada en ramas
+
+Ramas
+main -> codigo que se encuetra en produccion 
+develop -> rama ·pre-produccion· seran lanzadas pronto, probar del todo
+ramas de apoyo -> codigo editable se divide en
+ feature, se trabajan nuevas caracteristicas del proyecto
+ realease, preparacion de un lanzamiento de una nueva version
+ hotfix, cambios imprevistos, parches, bugs o problemas de produccion
+
+
+###AQUI va la evidencia de motivo de falta a la clase####
