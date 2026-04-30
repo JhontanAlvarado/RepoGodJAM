@@ -221,3 +221,40 @@ git commit
 [Ctrl + O, Enter, Ctrl + X](depende si usan nano)
 git branch -D rama
 git push origin develop
+
+
+##Clase 7
+
+###Pull Request
+Es una solicitud o aviso a los miembros del equipo
+sobre mergear o  unir el codigo realizados en una rama a 
+otra.
+
+##Flujo de trabajo (Con Pull Requests)
+
+git checkout develop
+git fetch
+git pull origin develop
+git checkout rama # Agregas -b si estás creando la rama
+git merge develop # Solo si hubo cambios en develop
+
+### Trabajas en tu rama
+git push origin rama # Agregas -u si es la primera vez que subes cambios al repositorio remoto
+git checkout develop
+git fetch
+git checkout rama
+git merge develop # Solo si hubo cambios en develop antes de hacer la PR
+
+### Resuelves manualmente los archivos fallidos y sus conflictos
+git add .
+git commit
+[Ctrl + O, Enter, Ctrl + X](depende si usan nano)
+git push origin rama
+
+
+Los PRs(Pull Request) se usan por temas de seguridad, notificando a los responsables de una solicitud de merge de una rama a otra, asi se podra revisar el codigo que se quiere unir evitando problemas, fallas o posibles ataques.
+
+Esto da mayor manejo y garantiza mayor seguridad en trabajos colaborativos
+
+
+Proteger los repositorios con limitacion de colaboracion es muy importante para moderar quienes y que aportes se mergean
