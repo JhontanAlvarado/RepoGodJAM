@@ -172,3 +172,52 @@ ramas de apoyo -> codigo editable se divide en
 
 
 ###AQUI va la evidencia de motivo de falta a la clase####
+
+
+
+##Apuntes clase 6
+
+###git merge
+Merge significa fusión, fusionar nuestras dos ramas en una sola
+
+Con el flag –no-ff  significa no fast forward, fuerza a hacer un commit para el merge para guardarlo en el historial de commits
+
+###git fetch
+Verifica si hubo cambios en la rama y sus ramas hijas, avisa si hubo cambios
+
+###git pull
+Trae todos los cambios de la rama remota, si lo hubiera,(es como si lo actualizara), al repositorio local 
+
+git pull origin rama
+
+###git push
+Sube los cambios del repositorio local al repositorio remoto
+
+git push origin rama
+
+Si el repositorio es ajeno para la primer push se pone el flag -u 
+para que no tenga que pedir permiso para crear la rama.
+
+git pull origin -u rama
+
+##Flujo de trabajo (Sin Pull Requests)
+
+git checkout develop
+git fetch
+git pull origin develop
+git checkout rama
+git merge develop # Solo si hubo cambios en develop
+
+##Trabajas en tu rama
+git push origin rama # Agregas -u si es la primera vez que subes cambios al repositorio remoto
+git checkout develop
+git fetch
+git pull origin develop
+git merge –no-ff rama
+
+##Resuelves manualmente los archivos fallidos y sus conflictos
+git add .
+git commit
+[Ctrl + O, Enter, Ctrl + X](depende si usan nano)
+git branch -D rama
+git push origin develop
