@@ -233,17 +233,17 @@ me conecte a la reunion finalizando la clase.
 
 Adjunto evidencia 
 
-<img src="Images/imagen_1.jpegg" alt="Texto alternativo" width="300">
+<img src="Images/imagen_1.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_2.jpegg" alt="Texto alternativo" width="300">
+<img src="Images/imagen_2.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_3.jpegg" alt="Texto alternativo" width="300">
+<img src="Images/imagen_3.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_4.jpegg" alt="Texto alternativo" width="300">
+<img src="Images/imagen_4.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_5.jpegg" alt="Texto alternativo" width="300">
+<img src="Images/imagen_5.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_6.jpegg" alt="Texto alternativo" width="300">
+<img src="Images/imagen_6.jpeg" alt="Texto alternativo" width="300">
 
 
 
