@@ -233,28 +233,17 @@ me conecte a la reunion finalizando la clase.
 
 Adjunto evidencia (Las capturas son del mismo dia de la mudanza 27/04 y las fotos del dia siguinte xd)
 
-<style>
-  .galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    max-width: 900px;
-  }
+<img src="Images/Imagen_6.jpeg" alt="Texto alternativo" width="250" height="350">
 
-  .galeria img {
-    width: 250px;
-    height: 350px;
-  }
-</style>
+<img src="Images/Imagen_4.jpeg" alt="Texto alternativo" width="250" height="350">
 
-<div class="galeria">
-  <img src="Images/Imagen_6.jpeg" alt="Imagen 6">
-  <img src="Images/Imagen_4.jpeg" alt="Imagen 4">
-  <img src="Images/Imagen_5.jpeg" alt="Imagen 5">
-  <img src="Images/Imagen_1.jpeg" alt="Imagen 1">
-  <img src="Images/Imagen_2.jpeg" alt="Imagen 2">
-  <img src="Images/Imagen_3.jpeg" alt="Imagen 3">
-</div>
+<img src="Images/Imagen_5.jpeg" alt="Texto alternativo" width="250" height="350">
+
+<img src="Images/Imagen_1.jpeg" alt="Texto alternativo" width="250" height="350">
+
+<img src="Images/Imagen_2.jpeg" alt="Texto alternativo" width="250" height="350">
+
+<img src="Images/Imagen_3.jpeg" alt="Texto alternativo" width="250" height="350">
 
 ----------------------------------------------------------
 
