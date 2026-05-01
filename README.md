@@ -242,8 +242,8 @@ Adjunto evidencia (Las capturas son del mismo dia de la mudanza 27/04 y las foto
   }
 
   .galeria img {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 350px;
   }
 </style>
 
