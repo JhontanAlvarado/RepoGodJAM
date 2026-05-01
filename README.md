@@ -2,16 +2,10 @@
 
 Jhonatan Alvarado Mamani
 
-# <- Un numeral es un Titulo
-
 ##Clase 1 Apuntes <- Dos numerales es un subtitulo
 
-## <- Dos numerales es subsubtitulo
-
-Git es un sistema de control de versiones <- texto normal
+Git es un sistema de control de versiones 
 creado por Linus Torvalds GOD.
-
-### <- Esto es otro subsubtitulo
 
 Instalar Git
 ```
@@ -26,24 +20,26 @@ Las comillas son para crear bloques de codigo
 
 ### Directorio de trabajo
 Untraked sin seguimiento
+
 Modified modificacion 
 
 Para igonrar archivos
+
 .gitignore 
 
 
 ### Comandos
-agrega un archivo al staged area
+Agrega un archivo al staged area
 ```
 git add <archivo> 
 ```
 
-agrega todos los archivos al staged area
+Agrega todos los archivos al staged area
 ```
 git add . 
 ```
 
-para volver al estado anterior
+Volver al estado anterior
 ```
 gid restore --staged <archivo> 
 ```
@@ -59,8 +55,11 @@ git reset --soft HEAD-1
 
 ### Buenas practicas para los commits
 -Commits atomicos
+
 -Maximo 50 caracteres
+
 -Usar Verbos imperativos(Add, Change, Fix, Remove)
+
 -Usar prefijos (feat, fix, perf, build, ci, docs, refactor, style, test)
 
 ----------------------------------------------------------
@@ -78,6 +77,7 @@ ssh-keygen -t ed25519 -C "correo@gmail.com"
 
 ```
 Rama principal
+
 Main 
 
 Conectar repo local existente con uno a GitHub
@@ -119,8 +119,7 @@ cambia la  url donde apunta nuestro repositorio
 git remote set -url <apodo> "url" 
 ```
 ### Configurar multiples ssh
-Crear un archivo config para evitar conflicto
-de keys
+Crear un archivo config para evitar conflicto de keys
 
 verificar que funciona
 ```
@@ -131,14 +130,17 @@ ssh -T git@github-miname
 Nos permite desplazar el HEAD hacia un punto 
 especifico  de la historia o a otra rama
 Inspeccionar, Restaurar, Experimentar,Cambiar
+
 Usar solo para "ver"
 
 ### Estado Detached HEAD
 El HEAD esta desacoplado, apunta directamente a un commit
+
 Espectador del pasado, no se tiene rama
+
 Los cambios no "encarnados" se pierden
 
-Para ir atras
+Moverse a otro commit
 ```
 git checkout <hash del commit>
 ```
@@ -148,7 +150,7 @@ Volver al ultimo hash  de la rama
 git checkout <rama>
 ```
 
-Para guardar cambios  del "pasado,  encarnar"
+Guardar cambios  del "pasado,  encarnar"
 ```
 git checkout <hashcommitcreado>
 git checkout -b ramanueva
@@ -156,8 +158,11 @@ git checkout -b ramanueva
 
 ### Buenas practicas
 -No trabajar mucho tiempo en Detached HEAD
+
 -Limpiar el directorio de trabajo (add y commit)
+
 -Usarlo para aprender de proyectos grandes, como crecieron
+
 
 ----------------------------------------------------------
 
@@ -198,6 +203,7 @@ git checkout -b <rama>
 
 ### git checkout  vs git switch
 git checkout es multiproposito, cuidado
+
 git switch es especializado para manejo de ramas
 
 
@@ -207,11 +213,17 @@ que permite trabajar de manera ordenada en ramas
 
 Ramas
 -main -> codigo que se encuetra en produccion 
-d-evelop -> rama ·pre-produccion· seran lanzadas pronto, probar del todo
+
+-develop -> rama ·pre-produccion· seran lanzadas pronto, probar del todo
+
 -ramas de apoyo -> codigo editable se divide en
+
  feature, se trabajan nuevas caracteristicas del proyecto
+
  realease, preparacion de un lanzamiento de una nueva version
+
  hotfix, cambios imprevistos, parches, bugs o problemas de produccion
+
 
 
 ### AQUI va la evidencia de motivo de falta a la clase
@@ -285,7 +297,7 @@ git push origin develop
 ```
 ----------------------------------------------------------
 
-## Clase 7
+## Apuntes clase 7
 
 Es una solicitud o aviso a los miembros del equipo
 sobre mergear o  unir el codigo realizados en una rama a 
@@ -324,3 +336,43 @@ git push origin rama
 Los PRs(Pull Request) se usan por temas de seguridad, notificando a los responsables de una solicitud de merge de una rama a otra, asi se podra revisar el codigo que se quiere unir evitando problemas, fallas o posibles ataques.
 Esto da mayor manejo y garantiza mayor seguridad en trabajos colaborativos
 Proteger los repositorios con limitacion de colaboracion es muy importante para moderar quienes y que aportes se mergean
+
+## Apuntes clase 8
+
+### git stash
+Permite guardar cambios temporales(sin hacer commit) para cambiar de rama
+
+-Cambiar de rama rápidamente
+
+-No realizar un commit aún
+
+-Guardar avances incompletos
+
+## git diff
+Muestra diferencias entre archivos, commits o el area de staging
+
+- Revisar cambios antes de hacer commit
+
+- Debugging
+
+-Entender modificaciones en el codigo
+
+## Conflictos
+Ocurre cuando dos cambios afectan la misma línea o zona de un archivo
+
+## Pasos para resolver un conflicto
+
+Abrir el archivo con conflicto
+
+Elegir que codigo mantener (o combinar ambos)
+
+Eliminar los marcadores (<<<<<<<, =======, >>>>>>>)
+
+Guardar el archivo
+
+Marcar como resuelto
+
+```
+git add archivo
+git commit
+```
