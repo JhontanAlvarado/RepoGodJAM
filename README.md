@@ -231,21 +231,30 @@ Ramas
 Por motivos de mudanza (empacar, trasladar, desempacar,etc), no pude llenar el form de la asistencia
 me conecte a la reunion finalizando la clase.
 
-Adjunto evidencia (Las capturas son del mismo dia de la mudanza y las fotos del dia siguinte xd)
+Adjunto evidencia (Las capturas son del mismo dia de la mudanza 27/04 y las fotos del dia siguinte xd)
 
-<img src="Images/Imagen_1.jpeg" alt="Texto alternativo" width="300">
+<style>
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 900px;
+  }
 
-<img src="Images/Imagen_2.jpeg" alt="Texto alternativo" width="300">
+  .galeria img {
+    width: 100%;
+    height: auto;
+  }
+</style>
 
-<img src="Images/Imagen_3.jpeg" alt="Texto alternativo" width="300">
-
-<img src="Images/Imagen_4.jpeg" alt="Texto alternativo" width="300">
-
-<img src="Images/Imagen_5.jpeg" alt="Texto alternativo" width="300">
-
-<img src="Images/Imagen_6.jpeg" alt="Texto alternativo" width="300">
-
-
+<div class="galeria">
+  <img src="Images/Imagen_6.jpeg" alt="Imagen 6">
+  <img src="Images/Imagen_4.jpeg" alt="Imagen 4">
+  <img src="Images/Imagen_5.jpeg" alt="Imagen 5">
+  <img src="Images/Imagen_1.jpeg" alt="Imagen 1">
+  <img src="Images/Imagen_2.jpeg" alt="Imagen 2">
+  <img src="Images/Imagen_3.jpeg" alt="Imagen 3">
+</div>
 
 ----------------------------------------------------------
 
@@ -376,7 +385,7 @@ Permite guardar cambios temporales(sin hacer commit) para cambiar de rama
 
 -Guardar avances incompletos
 
-## git diff
+### git diff
 Muestra diferencias entre archivos, commits o el area de staging
 
 - Revisar cambios antes de hacer commit
@@ -385,10 +394,10 @@ Muestra diferencias entre archivos, commits o el area de staging
 
 -Entender modificaciones en el codigo
 
-## Conflictos
+### Conflictos
 Ocurre cuando dos cambios afectan la misma línea o zona de un archivo
 
-## Pasos para resolver un conflicto
+### Pasos para resolver un conflicto
 
 Abrir el archivo con conflicto
 
