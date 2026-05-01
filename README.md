@@ -6,44 +6,62 @@ Jhonatan Alvarado Mamani
 
 ##Clase 1 Apuntes <- Dos numerales es un subtitulo
 
-### <- Tres numerales es subsubtitulo
+## <- Dos numerales es subsubtitulo
 
 Git es un sistema de control de versiones <- texto normal
 creado por Linus Torvalds GOD.
 
 ### <- Esto es otro subsubtitulo
 
-....
-
+Instalar Git
 ```
 sudo apt instal git
 ```
-las comillas son para crear bloques de codigo yeah.
 
+Las comillas son para crear bloques de codigo
 
-##Apuntes clase 2  
+----------------------------------------------------------
 
-###Directorio de trabajo
+## Apuntes clase 2  
+
+### Directorio de trabajo
 Untraked sin seguimiento
 Modified modificacion 
 
+Para igonrar archivos
+.gitignore 
 
-.gitignore para igonrar archivos
 
-##Comandos
-git add <archivo> agrega un archivo al staged area
-git add . agrega todos los archivos al staged area
-gid restore --staged <archivo> para volver al estado anterior
+### Comandos
+agrega un archivo al staged area
+```
+git add <archivo> 
+```
+agrega todos los archivos al staged area
+```
+git add . 
+```
+para volver al estado anterior
+```
+gid restore --staged <archivo> 
+```
 
-##Commit punto de guardado, todos los cambios pasan al historial
-git commint -m"mensaje" 
-git reset --soft HEAD-1 volver al ultimo commit
+### Commit punto de guardado, todos los cambios pasan al historial
+```
+git commint -m "mensaje" 
+```
+Volver al ultimo commit
+```
+git reset --soft HEAD-1 
+```
 
+### Buenas practicas para los commits
 Commits atomicos
 Maximo 50 caracteres
 Usar Verbos imperativos(Add, Change, Fix, Remove)
 Usar prefijos (feat, fix, perf, build, ci, docs, refactor, style, test)
 
+----------------------------------------------------------
 
 ##Apuntes clase 3
 
