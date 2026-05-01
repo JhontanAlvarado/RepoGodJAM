@@ -231,19 +231,19 @@ Ramas
 Por motivos de mudanza (empacar, trasladar, desempacar,etc), no pude llenar el form de la asistencia
 me conecte a la reunion finalizando la clase.
 
-Adjunto evidencia 
+Adjunto evidencia (Las capturas son del mismo dia de la mudanza y las fotos del dia siguinte xd)
 
-<img src="Images/imagen_1.jpeg" alt="Texto alternativo" width="300">
+<img src="Images/Imagen_1.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_2.jpeg" alt="Texto alternativo" width="300">
+<img src="Images/Imagen_2.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_3.jpeg" alt="Texto alternativo" width="300">
+<img src="Images/Imagen_3.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_4.jpeg" alt="Texto alternativo" width="300">
+<img src="Images/Imagen_4.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_5.jpeg" alt="Texto alternativo" width="300">
+<img src="Images/Imagen_5.jpeg" alt="Texto alternativo" width="300">
 
-<img src="Images/imagen_6.jpeg" alt="Texto alternativo" width="300">
+<img src="Images/Imagen_6.jpeg" alt="Texto alternativo" width="300">
 
 
 
