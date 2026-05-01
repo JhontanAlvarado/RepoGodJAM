@@ -166,7 +166,7 @@ git checkout -b ramanueva
 
 ----------------------------------------------------------
 
-## Apuntes clase 4 (Justificacion de falta)
+## Apuntes clase 5 (Motivo de falta)
 
 ### Ramas
 Birfucacion  del estado del codigo que crea un nuevo camino 
@@ -226,11 +226,30 @@ Ramas
 
 
 
-### AQUI va la evidencia de motivo de falta a la clase
+### Motivo de falta a la clase 5
+
+Por motivos de mudanza (empacar, trasladar, desempacar,etc), no pude llenar el form de la asistencia
+me conecte a la reunion finalizando la clase.
+
+Adjunto evidencia 
+
+<img src="Images/imagen_1.jpegg" alt="Texto alternativo" width="300">
+
+<img src="Images/imagen_2.jpegg" alt="Texto alternativo" width="300">
+
+<img src="Images/imagen_3.jpegg" alt="Texto alternativo" width="300">
+
+<img src="Images/imagen_4.jpegg" alt="Texto alternativo" width="300">
+
+<img src="Images/imagen_5.jpegg" alt="Texto alternativo" width="300">
+
+<img src="Images/imagen_6.jpegg" alt="Texto alternativo" width="300">
+
+
 
 ----------------------------------------------------------
 
-##Apuntes clase 6
+## Apuntes clase 6 (Motivo de falta)
 
 Merge significa fusión, fusionar nuestras dos ramas en una sola
 ```
@@ -295,6 +314,15 @@ git commit
 git branch -D rama
 git push origin develop
 ```
+
+## Motivo de falta a la clase 6
+Debido a la mudanza del dia anterior (lo meciono en los apunte de la clase 6)
+en el traslado e instalacion de las cosas no pude llenar el form de la asistencia.
+
+No asisti 2 dias por la mudanza, los demas dias no falte
+Por favor auxi tengalo en cuenta :|
+Gracias 
+
 ----------------------------------------------------------
 
 ## Apuntes clase 7
